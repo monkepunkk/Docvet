@@ -1,12 +1,16 @@
-nav
-    background-color: #1B274A
-    height: 50px
-    width: 100%
-    display: flex
-    padding-left: 375px 
 *
     margin: 0 
     padding: 0 
+    box-sizing: border-box
+nav
+    background-color: #1B274A
+    height: 50px
+    max-width: 1920px   
+    display: flex
+    padding-left: 250px /* ПИЗДЕЦ  */
+.container
+    width: 1170px
+    margin-left: 250px /* пиздец */
 header
     width: 100%
 .nav_metro,.nav_number,.around_clock
@@ -25,7 +29,15 @@ header
     line-height: 21px
     padding-top: 3px 
 .subheader
-    padding-left: 378px
+    padding-left: 250px /* пиздец */
+    display: flex
+    &_menu
+        display: flex
+        justify-content: space-between
+        width: 305px
+        font-size: 18px
+        margin-top: 30px
+        margin-left: 35%
 .subheader_docvet
     margin-top: 19px
     display: flex
@@ -35,3 +47,34 @@ header
         span
             font-size: 28px
             line-height: 33px
+.job_in_docvet
+    color: #1B274A
+    &_container
+        display: flex
+        padding-bottom: 160px
+    &_img
+        margin-left: 50px
+        margin-top: 103px   
+    &_header
+        font-size: 48px
+        color:  #1B274A
+        font-weight: 500
+        margin-bottom: 48px
+    &_subheader
+        font-size: 22px
+        font-weight: 500
+        max-width: 550px
+        margin-bottom: 32px
+    .p
+        font-size: 22px
+        max-width: 568px
+    &_list
+        margin-left: 40px
+        li
+            font-size: 22px
+            margin-bottom: 32px
+            max-width: 500px
+            list-style-type: none
+            &::before
+                content: "•"
+                color: #FF7800
