@@ -28,6 +28,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Roboto-Light", sans-serif;
 }
 
 nav {
@@ -100,9 +101,19 @@ header {
   font-size: 10px;
   line-height: 11px;
 }
+.subheader_docvet .logo_img {
+  margin-right: 12px;
+}
 .subheader_docvet_text span {
   font-size: 28px;
   line-height: 33px;
+}
+
+.header {
+  font-size: 48px;
+  color: #1B274A;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 
 .job_in_docvet {
@@ -118,10 +129,7 @@ header {
   margin-left: 50px;
   margin-top: 103px;
 }
-.job_in_docvet_header {
-  font-size: 48px;
-  color: #1B274A;
-  font-weight: 500;
+.job_in_docvet .header {
   margin-bottom: 48px;
 }
 .job_in_docvet_subheader {
@@ -129,6 +137,7 @@ header {
   font-weight: 500;
   max-width: 550px;
   margin-bottom: 32px;
+  font-weight: 600;
 }
 .job_in_docvet .p {
   font-size: 22px;
@@ -146,6 +155,49 @@ header {
 .job_in_docvet_list li::before {
   content: "•";
   color: #FF7800;
+}
+.job_in_docvet_list li span {
+  font-weight: 600;
+}
+
+.orange_line {
+  width: 1170px;
+  height: 1px;
+  background-color: #FF7800;
+  margin-bottom: 96px;
+  margin-left: 0 auto;
+}
+
+.blue_line {
+  width: 1170px;
+  height: 1px;
+  background-color: #3897F0;
+  margin-left: 0 auto;
+  margin-top: 22px;
+}
+
+.vacancies .header {
+  margin-bottom: 72px;
+}
+
+.vacancies_menu_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.vacancies_menu_item::after {
+  content: "ugabooga";
+}
+.vacancies_menu_item .text {
+  margin-left: 62px;
+  font-size: 32px;
+  color: #3897F0;
+}
+.vacancies_menu_item .sub_item {
+  color: #3897F0;
+  font-size: 14px;
+  line-height: 43px;
+  margin-left: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

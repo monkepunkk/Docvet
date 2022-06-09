@@ -2,6 +2,8 @@
     margin: 0 
     padding: 0 
     box-sizing: border-box
+    font-family: 'Roboto-Light', sans-serif
+
 nav
     background-color: #1B274A
     height: 50px
@@ -43,10 +45,18 @@ header
     display: flex
     font-size: 10px
     line-height: 11px
-    &_text
+    .logo_img
+        margin-right: 12px
+    &_text        
         span
             font-size: 28px
             line-height: 33px
+.header
+    font-size: 48px
+    color:  #1B274A
+    font-weight: 500
+    font-family: 'Roboto', sans-serif
+
 .job_in_docvet
     color: #1B274A
     &_container
@@ -55,16 +65,14 @@ header
     &_img
         margin-left: 50px
         margin-top: 103px   
-    &_header
-        font-size: 48px
-        color:  #1B274A
-        font-weight: 500
+    .header
         margin-bottom: 48px
     &_subheader
         font-size: 22px
         font-weight: 500
         max-width: 550px
         margin-bottom: 32px
+        font-weight: 600
     .p
         font-size: 22px
         max-width: 568px
@@ -78,3 +86,37 @@ header
             &::before
                 content: "•"
                 color: #FF7800
+            span
+                font-weight: 600
+.orange_line
+    width: 1170px
+    height: 1px
+    background-color: #FF7800
+    margin-bottom: 96px
+    margin-left: 0 auto
+.blue_line
+    width: 1170px
+    height: 1px
+    background-color: #3897F0
+    margin-left: 0 auto
+    margin-top: 22px
+.vacancies
+    .header
+        margin-bottom: 72px
+.vacancies_menu_item
+    display: flex
+    &::after
+        content: "ugabooga"
+    .text
+        margin-left: 62px
+        font-size: 32px
+        color: #3897F0
+    .sub_item
+        color: #3897F0
+        font-size: 14px
+        line-height: 43px
+        margin-left: 200px
+
+
+
+    
