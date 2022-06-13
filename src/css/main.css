@@ -1,32 +1,4 @@
 @charset "UTF-8";
-.yellow {
-  color: #FFA14D !important;
-}
-
-.white {
-  color: white !important;
-}
-
-.cream {
-  color: #FFE8D4 !important;
-}
-
-.blue {
-  color: #1B274A !important;
-}
-
-.orange {
-  color: #FF7800 !important;
-}
-
-.grey {
-  color: #C2C2C2 !important;
-}
-
-.black {
-  color: black !important;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -239,4 +211,4 @@ header {
   font-size: 22px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
