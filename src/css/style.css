@@ -355,6 +355,37 @@ header {
 }
 .card_main .form_wrapper {
   margin-left: 215px;
+  margin-top: 104px;
+}
+.card_main .form_wrapper input {
+  display: block;
+  width: 470px;
+  margin-top: 58px;
+  border: none;
+  outline: none;
+}
+.card_main .form_wrapper_header {
+  font-size: 22px;
+  font-weight: bold;
+}
+.card_main .form_wrapper_subheader {
+  font-size: 16px;
+  margin-top: 32px;
+}
+
+.grey_line {
+  display: block;
+  width: 470px;
+  background-color: #6D758B;
+  height: 1px;
+  margin-top: 15px;
+}
+
+.comment {
+  margin-top: 24px;
+}
+.comment span {
+  font-weight: bold;
 }
 
 .map {
@@ -415,6 +446,12 @@ header {
   margin-right: 24px;
   -webkit-transform: translateY(33%);
           transform: translateY(33%);
+}
+
+footer {
+  width: 100%;
+  height: 415px;
+  background: url("../img/footer.png");
 }
 
 /*# sourceMappingURL=style.css.map */
