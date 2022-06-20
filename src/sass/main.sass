@@ -13,6 +13,7 @@ nav
     margin: 0 auto
 header
     width: 100%
+    margin-bottom: 75px
 .container_nav_metro
     display: flex
     justify-content: space-between
@@ -80,17 +81,25 @@ header
     color:  #1B274A
     font-weight: 500
     font-family: 'Roboto', sans-serif
-
+#home
+    margin-left: 12px
+#path89
+    margin-left: 8px
+    margin-right: 14px
 .job_in_docvet
     color: #1B274A
+    &_menu
+        width: 100%
+        margin-bottom: 64px
     &_container
         display: flex
         padding-bottom: 160px
         justify-content: space-between
     &_img
         margin-top: 103px
-        transform: translateX(50px)   
-
+        transform: translateX(50px)
+        width: 500px
+        height: 388px   
     .header
         margin-bottom: 48px
     &_subheader
@@ -114,6 +123,11 @@ header
                 color: #FF7800
             span
                 font-weight: 600
+#big_plus
+    position: absolute
+    transform: translate(-60%,300px)
+#main_page
+    opacity: 0.5
 .orange_line
     width: 1170px
     height: 1px
@@ -147,9 +161,18 @@ header
         line-height: 50px
         position: absolute
         right: 80px
+        img
+            margin-left: 18px
+#small_up
+    margin-bottom: 3px
+.arrow_up
+    position: absolute
+    right: 80px
 .menu_active
     display: block
     padding-bottom: 70px
+    button
+        margin-left: 70px
     .text
         margin-bottom: 32px
     .job_in_docvet_list
@@ -178,7 +201,6 @@ header
     font-size: 18px
     color: white
     border: none
-    margin-left: 70px
     border-radius: 3%
 .choose
     padding-bottom: 144px   
@@ -241,12 +263,15 @@ header
     margin-top: 15px
 .comment
     margin-top: 24px
+    max-width: 450px
     span
         font-weight: bold
+.iaccept
+    display: flex
 .map
     width: 100%
     height: 702px   
-    background: url('../img/map.png')
+    background: url('../img/map.png') center center / cover no-repeat
     padding-left: 275px
     padding-top: 48px
 .stpts
@@ -287,9 +312,9 @@ header
         margin-right: 24px
         transform: translateY(33%)
 footer
-    width: 100%
+    max-width: 100%
     height: 415px
-    background: url('../img/footer.png')
+    background: url('../img/footer.png') center center / cover no-repeat
 
 
 
