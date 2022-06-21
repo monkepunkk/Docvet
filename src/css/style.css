@@ -40,10 +40,12 @@ nav {
   background-color: #1B274A;
   height: 50px;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .container {
   width: 1170px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -189,8 +191,6 @@ header {
 }
 .job_in_docvet_img {
   margin-top: 103px;
-  -webkit-transform: translateX(50px);
-          transform: translateX(50px);
   width: 500px;
   height: 388px;
 }
@@ -239,15 +239,15 @@ header {
   width: 1170px;
   height: 1px;
   background-color: #FF7800;
+  margin: 0 auto;
   margin-bottom: 96px;
-  margin-left: 0 auto;
 }
 
 .blue_line {
   width: 1170px;
   height: 1px;
   background-color: #3897F0;
-  margin-left: 0 auto;
+  margin: 0 auto;
   margin-top: 22px;
   margin-bottom: 56px;
 }
@@ -377,10 +377,34 @@ header {
   margin-top: 100px;
 }
 
+.iaccept {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.iaccept .checkbox {
+  margin-top: 58px;
+}
+
+#check {
+  position: absolute;
+  -webkit-transform: translate(4px, 6px);
+          transform: translate(4px, 6px);
+}
+
+#box {
+  position: absolute;
+}
+
 .card_main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.card_main .icon {
+  position: absolute;
+  -webkit-transform: translate(-50%, 580px);
+          transform: translate(-50%, 580px);
 }
 .card_main_img {
   text-align: center;
@@ -397,12 +421,26 @@ header {
   margin-left: 215px;
   margin-top: 104px;
 }
-.card_main .form_wrapper input {
+.card_main .form_wrapper p {
   display: block;
-  width: 470px;
+  text-align: left;
   margin-top: 58px;
+  font-size: 12px;
+  margin-left: 48px;
+}
+.card_main .form_wrapper button {
+  margin-top: 32px;
+}
+.card_main .form_wrapper input {
+  margin-right: 24px;
   border: none;
   outline: none;
+}
+.card_main .form_wrapper .pizda {
+  margin-top: 20px;
+}
+.card_main .form_wrapper .pizda input {
+  margin-top: 18px;
 }
 .card_main .form_wrapper_header {
   font-size: 22px;
@@ -427,12 +465,6 @@ header {
 }
 .comment span {
   font-weight: bold;
-}
-
-.iaccept {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .map {
@@ -499,6 +531,22 @@ footer {
   max-width: 100%;
   height: 415px;
   background: url("../img/footer.png") center center/cover no-repeat;
+}
+
+@media (max-width: 1440px) {
+  .job_in_docvet_img {
+    -webkit-transform: scale(50%);
+            transform: scale(50%);
+  }
+}
+@media (max-width: 1170px) {
+  .blue_line {
+    max-width: 80%;
+  }
+
+  .orange_line {
+    max-width: 80%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

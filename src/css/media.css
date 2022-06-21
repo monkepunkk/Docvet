@@ -1,0 +1,17 @@
+@media (max-width: 1440px) {
+  .job_in_docvet_img {
+    -webkit-transform: scale(50%);
+            transform: scale(50%);
+  }
+}
+@media (max-width: 1170px) {
+  .blue_line {
+    max-width: 80%;
+  }
+
+  .orange_line {
+    max-width: 80%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
