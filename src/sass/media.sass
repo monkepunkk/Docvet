@@ -1,8 +1,81 @@
 @media (max-width: 1440px)
 	.job_in_docvet_img
 		transform: scale(50%)
-@media (max-width: 1170px)
+@media (min-width: 768px)
 	.blue_line
-		max-width: 80%
+		max-width: 100%
 	.orange_line
-		max-width: 80%
+		max-width: 100%
+	.container
+		width: 512px
+		margin: 0 auto
+		&_nav_metro
+			width: 512px
+			justify-content: end
+			button
+				width: 64px
+				height: 56px
+				font-size: 1px
+				background-color: #FFA14D
+				color: #FFA14D
+				img
+					margin: 0 auto
+					margin-top: 15px
+					margin-left: 7px	
+					transform: scale(130%)
+	.card
+		display: block
+	header
+		margin-bottom: 42px
+	nav
+		height: 56px
+	.subheader
+		display: flex
+		justify-content: space-between
+
+	.subheader_menu
+		display: none
+	.menu_small
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		width: 64px
+		height: 10px
+		margin-top: 22px
+		.line	
+			height: 4px
+			width: 64px
+			margin-top: 4px
+			background-color: #1B274A
+			border-radius: 2px
+		.line:nth-child(2)
+			width: 50px
+		.line:nth-child(3)
+			width: 40px
+	.nav_metro,.nav_clock,.nav_number
+		display: none
+	.job_in_docvet
+		&_img
+			display: none
+		&_list
+			li
+				max-width: 384px
+	.card_main_img
+		display: none
+	.card_main
+		.form_wrapper
+			margin-left: 0
+			margin-top: 0
+	.form_wrapper
+		margin-left: 0
+		margin-top: 0
+	.map
+		padding-top: 0
+		padding-left: 0
+		background: none
+		.stppts
+			padding-left: 0
+			padding-top: 0
+	footer
+		background: none
+		background-color: #1B274A
