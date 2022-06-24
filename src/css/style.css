@@ -223,6 +223,8 @@ header {
 .job_in_docvet_list li::before {
   content: "•";
   color: #FF7800;
+  -webkit-transform: scale(130%);
+          transform: scale(130%);
 }
 .job_in_docvet_list li span {
   font-weight: 600;
@@ -239,7 +241,7 @@ header {
 }
 
 .orange_line {
-  width: 1170px;
+  max-width: 100%;
   height: 1px;
   background-color: #FF7800;
   margin: 0 auto;
@@ -500,14 +502,20 @@ header {
 .stpts_subheader {
   font-size: 32px;
   margin-bottom: 32px;
+  font-weight: bold;
 }
 .stpts_text {
   font-size: 22px;
+  font-weight: bold;
 }
 .stpts_text_small {
   font-size: 16px;
   color: #6D758B;
   margin-top: 18px;
+}
+
+.arrow_right {
+  margin-left: 18px;
 }
 
 .social {
@@ -542,7 +550,7 @@ footer {
             transform: scale(50%);
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .blue_line {
     max-width: 100%;
   }
@@ -552,7 +560,7 @@ footer {
   }
 
   .container {
-    width: 512px;
+    width: 67%;
     margin: 0 auto;
   }
   .container_nav_metro {
@@ -649,6 +657,23 @@ footer {
     margin-top: 0;
   }
 
+  .display_none_mid {
+    display: none;
+  }
+
+  .social {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .orange_line {
+    margin-bottom: 48px;
+  }
+
   .form_wrapper {
     margin-left: 0;
     margin-top: 0;
@@ -658,10 +683,39 @@ footer {
     padding-top: 0;
     padding-left: 0;
     background: none;
+    height: 536px;
   }
-  .map .stppts {
-    padding-left: 0;
+  .map_mid_display {
+    width: 100%;
+    height: 770px;
+    background: url("../img/map_mid.png") center center/cover no-repeat;
+  }
+
+  .stpts {
+    max-width: 100%;
+    margin: 0 auto;
     padding-top: 0;
+    padding-left: 0;
+  }
+  .stpts_subheader {
+    font-size: 24px;
+  }
+
+  .vacancies_menu_item .sub_item {
+    top: 37px;
+    right: 24px;
+  }
+  .vacancies_menu_item .text {
+    font-size: 22px;
+    margin-left: 24px;
+    max-width: 64%;
+  }
+
+  .choose .container .card_img {
+    display: block;
+    margin: 0;
+    -webkit-transform: scale(80%);
+            transform: scale(80%);
   }
 
   footer {
