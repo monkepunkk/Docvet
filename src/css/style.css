@@ -44,8 +44,7 @@ nav {
 }
 
 .container {
-  width: 1170px;
-  max-width: 100%;
+  width: 61%;
   margin: 0 auto;
 }
 
@@ -58,10 +57,10 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 1170px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 61%;
   margin: 0 auto;
 }
 .container_nav_metro img {
@@ -211,10 +210,8 @@ header {
   font-size: 22px;
   max-width: 568px;
 }
-.job_in_docvet_list {
-  margin-left: 40px;
-}
 .job_in_docvet_list li {
+  display: block;
   font-size: 22px;
   margin-bottom: 32px;
   max-width: 500px;
@@ -225,6 +222,7 @@ header {
   color: #FF7800;
   -webkit-transform: scale(130%);
           transform: scale(130%);
+  margin-right: 20px;
 }
 .job_in_docvet_list li span {
   font-weight: 600;
@@ -475,8 +473,8 @@ header {
 .map {
   width: 100%;
   height: 702px;
-  background: url("../img/map.png") center center/cover no-repeat;
-  padding-left: 275px;
+  background: url("../img/map.png") left top/cover no-repeat;
+  background-position: left top;
   padding-top: 48px;
 }
 
@@ -538,6 +536,10 @@ header {
           transform: translateY(33%);
 }
 
+.display_none_big {
+  display: none;
+}
+
 footer {
   max-width: 100%;
   height: 415px;
@@ -553,6 +555,7 @@ footer {
 @media (max-width: 768px) {
   .blue_line {
     max-width: 100%;
+    margin-bottom: 27px;
   }
 
   .orange_line {
@@ -564,10 +567,7 @@ footer {
     margin: 0 auto;
   }
   .container_nav_metro {
-    width: 512px;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    width: 61%;
   }
   .container_nav_metro button {
     width: 64px;
@@ -661,6 +661,10 @@ footer {
     display: none;
   }
 
+  .display_mid {
+    display: block;
+  }
+
   .social {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -701,6 +705,9 @@ footer {
     font-size: 24px;
   }
 
+  .vacancies .header {
+    margin-bottom: 48px;
+  }
   .vacancies_menu_item .sub_item {
     top: 37px;
     right: 24px;
@@ -714,14 +721,92 @@ footer {
   .choose .container .card_img {
     display: block;
     margin: 0;
-    -webkit-transform: scale(80%);
-            transform: scale(80%);
+    -webkit-transform: scale(50%);
+            transform: scale(50%);
   }
 
   footer {
     background: none;
     background-color: #1B274A;
   }
+
+  .card {
+    margin-bottom: 0;
+  }
+
+  #first_card .card_text {
+    margin-top: 32px;
+  }
+
+  #second_card .card_text {
+    margin-top: 32px;
+  }
+
+  #third_card .card_text {
+    margin-top: 100px;
+  }
+
+  .choose {
+    padding-bottom: 72px;
+  }
+
+  .header {
+    margin-bottom: 48px;
+  }
+
+  .menu_active button {
+    margin-left: 0;
+  }
+  .menu_active .list_header {
+    margin-left: 0;
+  }
+  .menu_active .menu_list {
+    margin-left: 0;
+  }
+  .menu_active .descr {
+    margin-left: 0;
+  }
+  .menu_active .job_in_docvet_list {
+    margin-left: 0;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 80%;
+  }
+  .container_nav_metro {
+    width: 80%;
+  }
+
+  .map_mid_display {
+    display: none;
+  }
+
+  .map_small_display {
+    display: block;
+    width: 100%;
+    height: 320px;
+    background: url("../img/map_small.png") center center/cover no-repeat;
+  }
+
+  .job_in_docvet .header {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .job_in_docvet_subheader {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+  .job_in_docvet_list li {
+    font-size: 14px;
+  }
+}
+.bold {
+  font-weight: bold;
+}
+
+.none {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,14 +4,14 @@
 @media (max-width: 768px)
 	.blue_line
 		max-width: 100%
+		margin-bottom: 27px
 	.orange_line
 		max-width: 100%
 	.container
 		width: 67%
 		margin: 0 auto
 		&_nav_metro
-			width: 512px
-			justify-content: end
+			width: 61%
 			button
 				width: 64px
 				height: 56px
@@ -68,6 +68,8 @@
 			margin-top: 0
 	.display_none_mid
 		display: none
+	.display_mid
+		display: block
 	.social
 		justify-content: space-between
 		padding-left: 0
@@ -95,6 +97,8 @@
 		&_subheader
 			font-size: 24px
 	.vacancies
+		.header
+			margin-bottom: 48px
 		&_menu
 			&_item
 				.sub_item
@@ -111,7 +115,58 @@
 				&_img
 					display: block
 					margin: 0
-					transform: scale(80%)
+					transform: scale(50%)
 	footer
 		background: none
 		background-color: #1B274A
+	.card
+		margin-bottom: 0
+	#first_card
+		img
+		.card_text
+			margin-top: 32px
+	#second_card
+		img
+		.card_text
+			margin-top: 32px
+	#third_card
+		img
+		.card_text
+			margin-top: 100px
+	.choose
+		padding-bottom: 72px
+	.header
+		margin-bottom: 48px
+	.menu_active
+		button
+			margin-left: 0
+		.list_header
+			margin-left: 0
+		.menu_list
+			margin-left: 0
+		.descr
+			margin-left: 0
+		.job_in_docvet_list
+			margin-left: 0
+@media (max-width: 320px)
+	.container
+		width: 80%
+		&_nav_metro
+			width: 80%
+	.map_mid_display
+		display: none
+	.map_small_display
+		display: block
+		width: 100%
+		height: 320px	
+		background: url('../img/map_small.png') center center / cover no-repeat
+	.job_in_docvet
+		.header
+			font-size: 24px
+			margin-bottom: 24px
+		&_subheader
+			font-size: 18px
+			margin-bottom: 24px
+		&_list
+			li
+				font-size: 14px
