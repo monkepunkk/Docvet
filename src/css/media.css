@@ -223,6 +223,11 @@
   }
 }
 @media (max-width: 320px) {
+  footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
   .container {
     width: 80%;
   }
@@ -338,6 +343,42 @@
   .stpts_text {
     font-size: 18px;
     margin-top: 24px;
+  }
+
+  .docvet_visit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .docvet_visit img {
+    display: block;
+  }
+  .docvet_visit_header {
+    margin-left: 9px;
+    margin-top: 14px;
+    font-size: 18px;
+    line-height: 13px;
+  }
+  .docvet_visit_header span {
+    font-size: 10px;
+  }
+
+  .small_menu {
+    margin-top: 25px;
+  }
+  .small_menu_header {
+    font-size: 18px;
+  }
+  .small_menu_header::after {
+    content: url("..img/home.svg");
+  }
+  .small_menu_list {
+    list-style-type: none;
+  }
+  .small_menu_list li a {
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 
