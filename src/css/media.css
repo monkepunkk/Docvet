@@ -273,16 +273,23 @@
     margin-bottom: 14px;
   }
 
+  .menu_active {
+    padding-bottom: 32px;
+  }
   .menu_active .text {
     margin-bottom: 0;
     line-height: 20px;
   }
   .menu_active .descr {
     font-size: 14px;
+    margin-bottom: 24px;
   }
   .menu_active .list_header {
     font-size: 22px;
     margin-bottom: 18px;
+  }
+  .menu_active .menu_list {
+    margin-bottom: 24px;
   }
   .menu_active .menu_list li {
     font-size: 14px;
@@ -296,6 +303,41 @@
   }
   .sub_item_small {
     display: block;
+  }
+
+  .social {
+    margin: 0 auto;
+  }
+
+  .map {
+    height: 460px;
+  }
+
+  .stpts a {
+    display: block;
+    font-size: 18px;
+    margin: 0;
+  }
+  .stpts .bus {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .stpts .orange_line {
+    display: block;
+    max-width: 30%;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .stpts .metro_icon {
+    margin-right: 8px;
+  }
+  .stpts_subheader {
+    font-size: 24px;
+  }
+  .stpts_text {
+    font-size: 18px;
+    margin-top: 24px;
   }
 }
 
