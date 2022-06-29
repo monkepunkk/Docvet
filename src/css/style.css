@@ -57,9 +57,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 61%;
   margin: 0 auto;
 }
@@ -781,6 +781,7 @@ footer {
 }
 @media (max-width: 320px) {
   footer {
+    height: 870px;
     padding-top: 48px;
     padding-bottom: 48px;
   }
@@ -925,9 +926,11 @@ footer {
   }
   .small_menu_header {
     font-size: 18px;
+    margin-bottom: 24px;
   }
-  .small_menu_header::after {
-    content: url("..img/home.svg");
+  .small_menu_header img {
+    margin-left: 5px;
+    margin-bottom: 3px;
   }
   .small_menu_list {
     list-style-type: none;
@@ -936,6 +939,81 @@ footer {
     color: white;
     font-size: 14px;
     line-height: 21px;
+  }
+
+  .container_nav_metro {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+
+  .header {
+    font-size: 24px;
+  }
+
+  .card_header {
+    font-size: 14px;
+  }
+  .card_header span {
+    font-size: 18px;
+  }
+
+  .choose .container .card_img {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+
+  .card_main .form_wrapper button {
+    width: 100%;
+  }
+  .card_main .form_wrapper .checkbox {
+    margin-top: 16px;
+  }
+  .card_main .form_wrapper p {
+    margin-left: 36px;
+    margin-top: 16px;
+  }
+
+  .grey_line {
+    width: 100%;
+  }
+
+  #footer_metro {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+
+  .small_footer_social {
+    -webkit-transform: translateX(-24px);
+            transform: translateX(-24px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .small_footer_social img {
+    display: block;
+    margin-left: 24px;
+  }
+
+  .nmb {
+    margin-bottom: 0;
+  }
+
+  .grey_text {
+    margin-top: 32px;
+  }
+  .grey_text a {
+    display: block;
+    margin-bottom: 4px;
+    opacity: 0.5;
+  }
+  .grey_text .copyright {
+    margin-top: 18px;
   }
 }
 .bold {

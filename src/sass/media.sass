@@ -150,6 +150,7 @@
 			margin-left: 0
 @media (max-width: 320px)
 	footer
+		height: 870px
 		padding-top: 48px
 		padding-bottom: 48px
 	.container
@@ -249,10 +250,11 @@
 	.small_menu
 		margin-top: 25px
 		&_header
-
 			font-size: 18px
-			&::after
-				content: url('..img/home.svg')	
+			margin-bottom: 24px
+			img
+				margin-left: 5px
+				margin-bottom: 3px
 		&_list
 			list-style-type: none
 			li
@@ -260,4 +262,46 @@
 					color: white
 					font-size: 14px
 					line-height: 21px
-
+	.container_nav_metro
+		justify-content: end
+	.header
+		font-size: 24px
+	.card_header
+		font-size: 14px
+		span
+			font-size: 18px
+	.choose
+		.container
+			.card_img
+				transform: translateX(-50%)
+				transform: scale(0.5)
+	.card_main
+		.form_wrapper
+			button
+				width: 100%
+			.checkbox
+				margin-top: 16px
+			p
+				margin-left: 36px
+				margin-top: 16px
+	.grey_line
+		width: 100%
+	#footer_metro
+		transform: translateY(6px)
+	.small_footer_social
+		transform: translateX(-24px)
+		display: flex
+		justify-content: start
+		img
+			display: block
+			margin-left: 24px
+	.nmb
+		margin-bottom: 0
+	.grey_text
+		margin-top: 32px
+		a
+			display: block
+			margin-bottom: 4px
+			opacity: 0.5
+		.copyright
+			margin-top: 18px
