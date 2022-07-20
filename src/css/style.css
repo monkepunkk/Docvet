@@ -115,6 +115,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: relative;
 }
 .subheader_menu {
@@ -177,6 +180,9 @@ header {
 
 .job_in_docvet {
   color: #1B274A;
+}
+.job_in_docvet_txt {
+  width: 100%;
 }
 .job_in_docvet_menu {
   width: 100%;
@@ -247,7 +253,7 @@ header {
 }
 
 .blue_line {
-  width: 1170px;
+  width: 100%;
   height: 1px;
   background-color: #3897F0;
   margin: 0 auto;
@@ -529,8 +535,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 100%;
   padding-left: 100px;
   padding-right: 100px;
@@ -569,9 +576,12 @@ footer {
 }
 
 @media (max-width: 1440px) {
-  .job_in_docvet_img {
-    -webkit-transform: scale(50%);
-            transform: scale(50%);
+  .job_in_docvet_img img {
+    width: 250px;
+  }
+
+  #big_plus {
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -803,6 +813,10 @@ footer {
   }
 }
 @media (max-width: 576px) {
+  .small_footer {
+    display: block !important;
+  }
+
   footer {
     height: 870px;
     padding-top: 48px;
@@ -1002,6 +1016,65 @@ footer {
 
   .stpts .orange_line {
     width: 30%;
+  }
+}
+@media(max-width: 1024px) {
+  .stpts {
+    display: none;
+  }
+
+  .nav_metro {
+    display: none;
+  }
+
+  .nav_clock {
+    display: none;
+  }
+
+  .choose {
+    display: none;
+  }
+
+  .signup {
+    width: 175px;
+  }
+
+  .social {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media(max-width: 1790px) {
+  .sub_item {
+    display: none;
+  }
+}
+@media(min-width: 769px) {
+  .container {
+    width: 72%;
+  }
+  .container_nav_metro {
+    width: 72%;
+  }
+
+  .job_in_docvet_container {
+    padding-bottom: 60px;
+  }
+}
+@media (min-width: 900px) {
+  .nav_clock {
+    display: block;
+  }
+}
+@media (min-width: 1025px) {
+  .container_nav_metro .nav_metro {
+    display: none;
+  }
+}
+@media (max-width: 1280px) {
+  footer {
+    background: none;
+    background-color: #1B274A;
   }
 }
 .bold {
