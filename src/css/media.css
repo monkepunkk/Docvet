@@ -471,14 +471,6 @@
   .sub_item {
     display: none;
   }
-}
-@media(min-width: 769px) {
-  .container {
-    width: 72%;
-  }
-  .container_nav_metro {
-    width: 72%;
-  }
 
   .job_in_docvet_container {
     padding-bottom: 60px;
@@ -487,11 +479,6 @@
 @media (min-width: 900px) {
   .nav_clock {
     display: block;
-  }
-}
-@media (min-width: 1025px) {
-  .container_nav_metro .nav_metro {
-    display: none;
   }
 }
 @media (max-width: 1280px) {

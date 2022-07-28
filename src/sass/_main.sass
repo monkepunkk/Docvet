@@ -99,7 +99,7 @@ header
         margin-bottom: 64px
     &_container
         display: flex
-        padding-bottom: 160px
+        padding-bottom: 64px
         justify-content: space-between
     &_img
         margin-top: 103px
@@ -117,8 +117,10 @@ header
         font-size: 22px
         max-width: 568px
     &_list
+        margin-left: 20px
         li
             display: block
+            font-weight: 100
             font-size: 22px
             margin-bottom: 32px
             max-width: 500px
@@ -127,7 +129,6 @@ header
                 content: "•"
                 color: #FF7800
                 transform: scale(130%)
-                margin-right: 20px
             span
                 font-weight: 600
 #big_plus
@@ -174,8 +175,10 @@ header
         line-height: 50px
         position: absolute
         right: 80px
+        a
         img
             margin-left: 18px
+            transform: translateY(5px)
 #small_up
     margin-bottom: 3px
 .arrow_up
@@ -206,7 +209,8 @@ header
         margin-bottom: 48px
         padding-left: 30px
         li
-            font-size: 22px 
+            font-size: 22px
+            margin-bottom: 18px
 .button
     width: 185px
     height: 64px
@@ -353,11 +357,48 @@ header
     display: none
 footer
     max-width: 100%
-    height: 415px
-    background: url('../img/footer.png') center center / cover no-repeat
+    height: 500px
+    background-color: #1B274A
+    padding-top: 40px
+    .container_footer
+        display: flex
+        justify-content: space-between
+    .footer_lower
+        display: flex
+        justify-content: space-between
+    .footer_social
+        display: flex
+        justify-content: space-around
+    .column
+        a
+            display: block
+            margin-bottom: 16px
+            color: white
+        &_header
+            color: white
+            margin-bottom: 15px
+            margin-top: 15px 
+            font-size: 22px
+        width: 300px
+        span
+            margin-bottom: 10px
+            font-size: 20px
+    .under_footer
+        margin-top: 20px
+        display: flex
+        justify-content: space-between
+        .column
+            width: 500px
+            display: flex
+            justify-content: space-between
+    #opacity50
+        opacity: 50%
+    .biglogo
+        transform: scale(160%)
+        margin-left: 35px
+        margin-top: 25px
 .how_get
     display: none
-    margin-right: 45%
     font-size: 16px
     line-height: 56px
     .icon
