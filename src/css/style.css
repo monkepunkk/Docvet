@@ -1100,7 +1100,12 @@ footer .biglogo {
   }
 
   .choose {
-    display: none;
+    padding-bottom: 25px;
+  }
+
+  .card_main .form_wrapper {
+    margin-left: 15% !important;
+    margin-top: 0;
   }
 
   .signup {
@@ -1110,6 +1115,15 @@ footer .biglogo {
   .social {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+@media (max-width: 920px) {
+  .card_main .form_wrapper {
+    margin-left: 9% !important;
+  }
+
+  .card {
+    margin-left: 10% !important;
   }
 }
 @media(max-width: 1790px) {
@@ -1122,9 +1136,52 @@ footer .biglogo {
   }
 }
 @media (max-width: 1280px) {
+  .choose_header {
+    font-size: 32px;
+  }
+
+  .none_on1280 {
+    display: none;
+  }
+
   footer {
     background: none;
     background-color: #1B274A;
+  }
+
+  .orange_line {
+    margin-bottom: 48px;
+  }
+
+  .card {
+    display: block;
+    margin-left: 20%;
+    margin-bottom: 40px;
+  }
+  .card_header {
+    font-size: 32px;
+  }
+  .card_text {
+    font-size: 26px;
+    max-width: 570px;
+    margin-bottom: 15px;
+  }
+
+  .card_img {
+    width: 570px !important;
+    height: 370px !important;
+  }
+
+  #first_card .card_text {
+    margin-top: 0;
+  }
+
+  #second_card .card_text {
+    margin-top: 0;
+  }
+
+  #third_card .card_text {
+    margin-top: 0;
   }
 }
 @media (max-width: 1800px) {
@@ -1134,6 +1191,60 @@ footer .biglogo {
 
   .job_in_docvet_img img {
     width: 450px;
+  }
+}
+@media (max-width: 1320px) {
+  .job_in_docvet_img img {
+    width: 400px;
+  }
+
+  .card_img {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media (max-width: 1200px) {
+  .job_in_docvet .p {
+    font-size: 18px;
+  }
+  .job_in_docvet_header {
+    font-size: 40px;
+  }
+  .job_in_docvet_subheader {
+    font-size: 20px;
+  }
+  .job_in_docvet_list li {
+    font-size: 18px;
+  }
+
+  .header {
+    font-size: 36px;
+  }
+
+  header {
+    margin-bottom: 25px;
+  }
+
+  .vacancies .header {
+    margin-bottom: 40px;
+  }
+
+  .vacancies_menu .text {
+    font-size: 26px;
+  }
+
+  .menu_active .menu_list li {
+    font-size: 18px;
+  }
+  .menu_active .list_header {
+    font-size: 26px;
+  }
+  .menu_active .descr {
+    font-size: 18px;
+  }
+
+  .blue_line, .orange_line {
+    margin-bottom: 36px;
   }
 }
 @media (max-width: 1700px) {
@@ -1170,6 +1281,10 @@ footer .biglogo {
   .card_img {
     width: 500px;
   }
+
+  .card_main .form_wrapper {
+    margin-left: 150px;
+  }
 }
 @media (max-width: 1240px) {
   .nav_metro span {
@@ -1177,12 +1292,20 @@ footer .biglogo {
   }
 }
 @media (max-width: 1024px) {
+  .card_main_img {
+    display: none;
+  }
+
   .container {
     width: 90%;
   }
 
   .container_nav_metro {
     width: 90%;
+  }
+
+  .footer_lower {
+    display: none !important;
   }
 }
 @media (max-width: 916px) {
@@ -1199,11 +1322,62 @@ footer .biglogo {
   .vacancies_menu_item .text {
     max-width: 600px;
   }
+
+  .card_main .form_wrapper {
+    margin-left: 75px;
+  }
 }
 @media (max-width: 800px) {
   .vacancies_menu_item .text {
     font-size: 26px;
     max-width: 500px;
+  }
+
+  #site_map {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .footer_lower {
+    display: none;
+  }
+
+  .footer_underline {
+    font-size: 14px;
+  }
+
+  .underline a {
+    margin-left: 15px;
+  }
+
+  .container_footer .column_header {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .big_footer {
+    display: none;
+  }
+
+  .footer_underline {
+    display: none;
+  }
+
+  .small_footer {
+    padding-left: 20%;
+  }
+
+  .small_menu_header {
+    margin-top: 10px;
+  }
+
+  .docvet_visit_header {
+    line-height: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .small_footer {
+    padding-left: 10%;
   }
 }
 .bold {

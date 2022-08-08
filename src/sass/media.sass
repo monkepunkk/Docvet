@@ -297,7 +297,10 @@
     .stpts
         display: none
     .choose
-        display: none
+        padding-bottom: 25px
+    .card_main .form_wrapper
+        margin-left: 15% !important
+        margin-top: 0
     .signup
         width: 175px
     .social
@@ -305,6 +308,11 @@
         padding-right: 0
         div
             span
+@media (max-width: 920px)
+    .card_main .form_wrapper
+        margin-left: 9% !important  
+    .card
+        margin-left: 10% !important  
                
 @media(max-width: 1790px)
     .sub_item
@@ -313,15 +321,78 @@
     .job_in_docvet_container
         padding-bottom: 60px
 @media (max-width: 1280px)
+    .choose_header
+        font-size: 32px
+    .none_on1280
+        display: none
     footer
         background: none
         background-color: #1B274A
+    .orange_line
+        margin-bottom: 48px
+    .card
+        display: block
+        margin-left: 20%
+        margin-bottom: 40px
+        &_header
+            font-size: 32px
+        &_text
+            font-size: 26px
+            max-width: 570px  
+            margin-bottom: 15px  
+    .card_img
+        width: 570px !important
+        height: 370px !important
+    #first_card .card_text
+        margin-top: 0
+    #second_card .card_text
+        margin-top: 0
+    #third_card .card_text
+        margin-top: 0
 @media (max-width: 1800px)
     #big_plus
         display: none
     .job_in_docvet_img
         img
             width: 450px
+@media (max-width: 1320px)
+    .job_in_docvet_img
+        img
+            width: 400px
+    .card_img
+        width: 350px
+        height: 250px   
+@media (max-width: 1200px)
+    .job_in_docvet
+        .p
+            font-size: 18px
+        &_header
+            font-size: 40px 
+        &_subheader
+            font-size: 20px
+        &_list
+            li
+                font-size: 18px
+    .header
+        font-size: 36px
+    header
+        margin-bottom: 25px
+    .vacancies
+        .header
+            margin-bottom: 40px
+    .vacancies_menu
+        .text
+            font-size: 26px
+    .menu_active
+        .menu_list
+            li
+                font-size: 18px
+        .list_header
+            font-size: 26px
+        .descr
+            font-size: 18px
+    .blue_line, .orange_line
+        margin-bottom: 36px
 @media (max-width: 1700px) 
     .container
         width: 70%
@@ -341,15 +412,23 @@
         width: 80%
     .card_img
         width: 500px
+    .card_main
+        .form_wrapper
+            margin-left: 150px  
 @media (max-width: 1240px)
     .nav_metro
         span
             display: none
+    .depart
 @media (max-width: 1024px)
+    .card_main_img
+        display: none
     .container  
         width: 90%
     .container_nav_metro
         width: 90%
+    .footer_lower
+        display: none !important
 @media (max-width: 916px)
     .nav_metro
         display: none
@@ -359,11 +438,42 @@
 @media (max-width: 1260px)
     .vacancies_menu_item .text
         max-width: 600px
+    .card_main
+        .form_wrapper
+            margin-left: 75px
 @media (max-width: 800px)
     .vacancies_menu_item .text
         font-size: 26px 
         max-width: 500px
-    
+    #site_map
+        display: none
+@media (max-width: 768px)
+    .footer_lower
+        display: none
+    .footer_underline
+        font-size: 14px
+    .underline
+        a
+            margin-left: 15px
+    .container_footer
+        .column_header
+            font-size: 16px
+@media (max-width: 576px)
+    .big_footer
+        display: none
+    .footer_underline
+        display: none
+    .small_footer
+        padding-left: 20%
+    .small_menu_header
+        margin-top: 10px
+    .docvet_visit_header
+        line-height: 20px
+@media (max-width: 420px)
+        .small_footer
+            padding-left: 10%
+
+
 
 
 
