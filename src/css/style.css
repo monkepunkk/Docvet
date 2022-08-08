@@ -655,6 +655,10 @@ footer .biglogo {
   font-size: 16px;
 }
 
+.none_on1280 {
+  display: none;
+}
+
 @media (max-width: 1440px) {
   #big_plus {
     display: none;
