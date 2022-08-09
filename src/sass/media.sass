@@ -27,7 +27,6 @@
                     margin: 0 auto
                     margin-top: 15px
                     margin-left: 7px	
-                    transform: scale(130%)
     .card
         display: block
     header
@@ -88,7 +87,6 @@
         padding-top: 0
         padding-left: 0
         background: none
-        height: 570px
         &_mid_display
             width: 100%
             height: 770px
@@ -112,19 +110,13 @@
                     font-size: 22px
                     margin-left: 24px
                     max-width: 64%
-        
-    .choose
-        .container
-            .card
-                &_img
-                    display: block
-                    margin: 0
-                    transform: scale(50%)
     footer
         background: none
         background-color: #1B274A
     .card
         margin-bottom: 0
+        &_img
+            width: 400px 
     #first_card
         img
         .card_text
@@ -209,8 +201,6 @@
             display: block
     .social
         margin: 0 auto
-    .map 
-        height: 570px
     .stpts
         a
             display: block
@@ -252,11 +242,6 @@
                     color: white
                     line-height: 21px
     .container_nav_metro
-    .choose
-        .container
-            .card_img
-                transform: translateX(-50%)
-                transform: scale(0.5)
     .card_main
         .form_wrapper
             button
@@ -341,8 +326,8 @@
             max-width: 570px  
             margin-bottom: 15px  
     .card_img
-        width: 570px !important
-        height: 370px !important
+        width: 570px 
+        height: 370px 
     #first_card .card_text
         margin-top: 0
     #second_card .card_text
@@ -429,6 +414,10 @@
         width: 90%
     .footer_lower
         display: none !important
+    .map
+        min-height: 650px
+        background:  url('../img/map_mid.png') center center / cover no-repeat
+
 @media (max-width: 916px)
     .nav_metro
         display: none
@@ -458,6 +447,14 @@
     .container_footer
         .column_header
             font-size: 16px
+    .choose_header
+        text-align: center
+    .card_img
+        width: 400px
+        height: 300px
+    .card_text
+        span
+            display: none
 @media (max-width: 576px)
     .big_footer
         display: none
@@ -469,9 +466,44 @@
         margin-top: 10px
     .docvet_visit_header
         line-height: 20px
-@media (max-width: 420px)
+    .card_img
+        width: 350px
+        height: 270px
+@media (max-width: 440px)
         .small_footer
             padding-left: 10%
+        .card_img
+            width: 250px
+            height: 170px
+        .card_text
+            font-size: 14px
+        .card_main
+            .form_wrapper
+                margin-left: 5px !important
+        .job_in_docvet_container
+            padding-bottom: 20px
+@media(max-width: 990px)
+    .job_in_docvet_img
+        img
+            width: 370px
+            height: 260px
+@media (max-width: 870px)
+    .vacancies_menu_item
+        .text
+            max-width: 450px
+@media (max-width: 600px)
+    .vacancies_menu_item
+        .text
+            max-width: 350px
+@media (max-width: 460px)
+    .vacancies_menu_item
+        .text
+            max-width: 250px
+@media (max-width: 360px)
+    .vacancies_menu_item
+        .text
+            max-width: 200px
+    
 
 
 
